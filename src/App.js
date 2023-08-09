@@ -17,6 +17,7 @@ function App() {
         >
           Learn React
         </a>
+        <button className = "button-style">Quran Tracker</button>
       </header>
     </div>
   );
