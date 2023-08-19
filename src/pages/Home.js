@@ -1,5 +1,6 @@
 import logo from '../logo.svg';
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
@@ -17,7 +18,9 @@ function Home() {
         >
           Learn React
         </a>
-        <button className = "button-style">Quran Tracker</button>
+        <Link to="/qurantracker">
+          <button className = "button-style">Quran Tracker</button>
+        </Link>
       </header>
     </div>
   );
