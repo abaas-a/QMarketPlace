@@ -2,6 +2,7 @@ import logo from '../logo.svg';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+
 function Home() {
   return (
     <div className="App">
@@ -19,7 +20,7 @@ function Home() {
           Learn React
         </a>
         <Link to="/qurantracker">
-          <button className = "button-style">Quran Tracker</button>
+          <button className = "button-style">Quran Market Place</button>
         </Link>
       </header>
     </div>
