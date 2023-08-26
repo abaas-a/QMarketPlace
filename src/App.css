@@ -77,3 +77,16 @@
   padding: 10px;
   margin: 10px;
 }
+
+.add-description {
+  margin: 8px 0;
+}
+
+.add-price {
+  bottom: 10px;
+  right: 10px;
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
