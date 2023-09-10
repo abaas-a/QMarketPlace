@@ -9,7 +9,7 @@ function Dashboard() {
       <TutorAds 
       imageSrc={logo}
       name="Abaas Ahmed"
-      description= "ijaazah in riwaya Hafs"
+      description= "Tall fit and handsome Quran teacher"
       experience="2 years"
       price= "£10/30mins"
       /> 
