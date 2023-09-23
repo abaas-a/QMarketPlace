@@ -9,26 +9,26 @@ import { AuthProvider } from './contexts/AuthContext';
 
 function App() {
   return (
-    <BrowserRouter>
-      <div className="App">
+    <div className="App">
         <Navbar/>
           <div className="Content">
+          <BrowserRouter>
+            <AuthProvider>
             <Switch>
               <Route exact path="/"><Home /></Route>
-              <Route exact path="/qurantracker">
-                <AuthProvider>
+                <Route exact path="/signup">
                   <Container className = "d-flex align-items-center justify-content-center"
                     style = {{ minHeight: "100vh" }}>
                     <div className='w-100' style={{maxWidth: "400px"}}>
                       <SignUp />
                     </div>
                   </Container>
-                </AuthProvider>
-              </Route>
+                </Route>
             </Switch>
+            </AuthProvider>
+          </BrowserRouter>
           </div>
       </div>
-    </BrowserRouter>
   );
 }
 
