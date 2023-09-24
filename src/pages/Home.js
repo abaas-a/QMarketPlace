@@ -19,7 +19,7 @@ function Home() {
         >
           Learn React
         </a>
-        <Link to="/qurantracker">
+        <Link to="/signup">
           <button className = "button-style">Quran Market Place</button>
         </Link>
       </header>
